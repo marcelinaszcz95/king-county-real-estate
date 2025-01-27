@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f574570a403d6b655abfca6a56d1d50f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f574570a403d6b655abfca6a56d1d50f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f574570a403d6b655abfca6a56d1d50f = L.map(
+                "map_f574570a403d6b655abfca6a56d1d50f",
+                {
+                    center: [47.53013333333333, -122.31150000000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9b8d2fab95881ce9ccf1024a88978f13 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9b8d2fab95881ce9ccf1024a88978f13.addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var marker_7b20ee72b6616f92d42599f0f1fce92c = L.marker(
+                [47.2843, -122.294],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_e2aae396554b00525e5f24001e9bead1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b20ee72b6616f92d42599f0f1fce92c.setIcon(icon_e2aae396554b00525e5f24001e9bead1);
+        
+    
+        var popup_4042485b811e384cec4c018e35d5ce32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6baf8099b20622575ab049f440cb08cf = $(`<div id="html_6baf8099b20622575ab049f440cb08cf" style="width: 100.0%; height: 100.0%;">House: Zip Code 98003</div>`)[0];
+                popup_4042485b811e384cec4c018e35d5ce32.setContent(html_6baf8099b20622575ab049f440cb08cf);
+            
+        
+
+        marker_7b20ee72b6616f92d42599f0f1fce92c.bindPopup(popup_4042485b811e384cec4c018e35d5ce32)
+        ;
+
+        
+    
+    
+            var marker_a11d222abe59c6c824670a45bdac1cba = L.marker(
+                [47.5703, -122.28],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_35137a114409723e90d5a251f8971cd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a11d222abe59c6c824670a45bdac1cba.setIcon(icon_35137a114409723e90d5a251f8971cd2);
+        
+    
+        var popup_5cdac29ebd867f9876a95b8de5b97f6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4977f7b487c706ba55cc319da729266 = $(`<div id="html_e4977f7b487c706ba55cc319da729266" style="width: 100.0%; height: 100.0%;">House: Zip Code 98144</div>`)[0];
+                popup_5cdac29ebd867f9876a95b8de5b97f6f.setContent(html_e4977f7b487c706ba55cc319da729266);
+            
+        
+
+        marker_a11d222abe59c6c824670a45bdac1cba.bindPopup(popup_5cdac29ebd867f9876a95b8de5b97f6f)
+        ;
+
+        
+    
+    
+            var marker_d31b6edcc609856d61b718dec0aef2d2 = L.marker(
+                [47.6298, -122.323],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_b81415a212753f552de4c580713bf5bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d31b6edcc609856d61b718dec0aef2d2.setIcon(icon_b81415a212753f552de4c580713bf5bb);
+        
+    
+        var popup_96c9e234456fca1ad56db468d0405224 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d953f3821033e31d55f4b103553bee69 = $(`<div id="html_d953f3821033e31d55f4b103553bee69" style="width: 100.0%; height: 100.0%;">House: Zip Code 98102</div>`)[0];
+                popup_96c9e234456fca1ad56db468d0405224.setContent(html_d953f3821033e31d55f4b103553bee69);
+            
+        
+
+        marker_d31b6edcc609856d61b718dec0aef2d2.bindPopup(popup_96c9e234456fca1ad56db468d0405224)
+        ;
+
+        
+    
+    
+            var marker_b01c1bd2e1cc3781f270192a1c893ba2 = L.marker(
+                [47.6427, -122.408],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_08567ac03a656bf248cfcda9e48a26dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b01c1bd2e1cc3781f270192a1c893ba2.setIcon(icon_08567ac03a656bf248cfcda9e48a26dc);
+        
+    
+        var popup_38b74889e9995781bf8722a43db41b58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad52d3328f907c840660615f0c6ca919 = $(`<div id="html_ad52d3328f907c840660615f0c6ca919" style="width: 100.0%; height: 100.0%;">House: Zip Code 98199</div>`)[0];
+                popup_38b74889e9995781bf8722a43db41b58.setContent(html_ad52d3328f907c840660615f0c6ca919);
+            
+        
+
+        marker_b01c1bd2e1cc3781f270192a1c893ba2.bindPopup(popup_38b74889e9995781bf8722a43db41b58)
+        ;
+
+        
+    
+    
+            var marker_1fe537ff6f8b5c7d912671feb8fdb7bf = L.marker(
+                [47.6263, -122.284],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_194d83996145cf51ea54b8828b034262 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1fe537ff6f8b5c7d912671feb8fdb7bf.setIcon(icon_194d83996145cf51ea54b8828b034262);
+        
+    
+        var popup_14e0063db2691eaed1d5d057dc846250 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ed37841f00eeb073ecbeb35fd6b43c = $(`<div id="html_44ed37841f00eeb073ecbeb35fd6b43c" style="width: 100.0%; height: 100.0%;">House: Zip Code 98112</div>`)[0];
+                popup_14e0063db2691eaed1d5d057dc846250.setContent(html_44ed37841f00eeb073ecbeb35fd6b43c);
+            
+        
+
+        marker_1fe537ff6f8b5c7d912671feb8fdb7bf.bindPopup(popup_14e0063db2691eaed1d5d057dc846250)
+        ;
+
+        
+    
+    
+            var marker_7935e0297653f4adaadd0d7df1044398 = L.marker(
+                [47.4274, -122.28],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_d2ba9f2ca3a1c9e90ed6a9ae5f4a1fd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7935e0297653f4adaadd0d7df1044398.setIcon(icon_d2ba9f2ca3a1c9e90ed6a9ae5f4a1fd8);
+        
+    
+        var popup_542f6e72ae2ec656381ec8ba7b8a1497 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19851b90ae65b1bfd0d30ba35c72a267 = $(`<div id="html_19851b90ae65b1bfd0d30ba35c72a267" style="width: 100.0%; height: 100.0%;">House: Zip Code 98188</div>`)[0];
+                popup_542f6e72ae2ec656381ec8ba7b8a1497.setContent(html_19851b90ae65b1bfd0d30ba35c72a267);
+            
+        
+
+        marker_7935e0297653f4adaadd0d7df1044398.bindPopup(popup_542f6e72ae2ec656381ec8ba7b8a1497)
+        ;
+
+        
+    
+    
+            var marker_0db0368e75ba8ee18574482e0659b927 = L.marker(
+                [47.4719, -122.157],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_27532cb3e811986b3f3fcf0fdf9541d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0db0368e75ba8ee18574482e0659b927.setIcon(icon_27532cb3e811986b3f3fcf0fdf9541d9);
+        
+    
+        var popup_422540c06d518773086a83f52d232f6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57f875e8c2dfa4ea1b91c0707d3d03a0 = $(`<div id="html_57f875e8c2dfa4ea1b91c0707d3d03a0" style="width: 100.0%; height: 100.0%;">Maplewood Golf Course</div>`)[0];
+                popup_422540c06d518773086a83f52d232f6a.setContent(html_57f875e8c2dfa4ea1b91c0707d3d03a0);
+            
+        
+
+        marker_0db0368e75ba8ee18574482e0659b927.bindPopup(popup_422540c06d518773086a83f52d232f6a)
+        ;
+
+        
+    
+    
+            var marker_04fc5ede97bfd8bc97a42878d29bface = L.marker(
+                [47.5356, -122.143],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_2ecf32e10e7bd9c80a9f1204229e6a76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_04fc5ede97bfd8bc97a42878d29bface.setIcon(icon_2ecf32e10e7bd9c80a9f1204229e6a76);
+        
+    
+        var popup_d1b15d61d30a62257ab9f9f18e6e9760 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_368d33605eb2dbc753971d471c6eeaba = $(`<div id="html_368d33605eb2dbc753971d471c6eeaba" style="width: 100.0%; height: 100.0%;">The Golf Club at Newcastle</div>`)[0];
+                popup_d1b15d61d30a62257ab9f9f18e6e9760.setContent(html_368d33605eb2dbc753971d471c6eeaba);
+            
+        
+
+        marker_04fc5ede97bfd8bc97a42878d29bface.bindPopup(popup_d1b15d61d30a62257ab9f9f18e6e9760)
+        ;
+
+        
+    
+    
+            var marker_f893570066fe847251b71d6cc451d43b = L.marker(
+                [47.3362, -122.2066],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_d82917a4d6a8c485a92e2d1e042f75b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f893570066fe847251b71d6cc451d43b.setIcon(icon_d82917a4d6a8c485a92e2d1e042f75b6);
+        
+    
+        var popup_909b4479717f592b8ec448d4cc93d786 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a451585965c5747e582a1ad86ea837be = $(`<div id="html_a451585965c5747e582a1ad86ea837be" style="width: 100.0%; height: 100.0%;">Auburn Golf Course</div>`)[0];
+                popup_909b4479717f592b8ec448d4cc93d786.setContent(html_a451585965c5747e582a1ad86ea837be);
+            
+        
+
+        marker_f893570066fe847251b71d6cc451d43b.bindPopup(popup_909b4479717f592b8ec448d4cc93d786)
+        ;
+
+        
+    
+    
+            var marker_e9778796ac062f8ba6cf05225a1caedd = L.marker(
+                [47.5192, -121.797],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_6bf60d2e12fc44f170ac70209af23895 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9778796ac062f8ba6cf05225a1caedd.setIcon(icon_6bf60d2e12fc44f170ac70209af23895);
+        
+    
+        var popup_559bb9753ab183efc639463eb8bfdda9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c83e2263d2fd743bb33913f65f5154bb = $(`<div id="html_c83e2263d2fd743bb33913f65f5154bb" style="width: 100.0%; height: 100.0%;">Mount Si Golf Course</div>`)[0];
+                popup_559bb9753ab183efc639463eb8bfdda9.setContent(html_c83e2263d2fd743bb33913f65f5154bb);
+            
+        
+
+        marker_e9778796ac062f8ba6cf05225a1caedd.bindPopup(popup_559bb9753ab183efc639463eb8bfdda9)
+        ;
+
+        
+    
+    
+            var marker_f8f8404056c26f07a5a128da1a7cd75e = L.marker(
+                [47.6438, -122.378],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_0338ed2a190b4d5ae1c006528526bdea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8f8404056c26f07a5a128da1a7cd75e.setIcon(icon_0338ed2a190b4d5ae1c006528526bdea);
+        
+    
+        var popup_3c9b928751a14e3fb84984bfbbb9bc39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a73624e8f925f3e352f4826b5a3099a8 = $(`<div id="html_a73624e8f925f3e352f4826b5a3099a8" style="width: 100.0%; height: 100.0%;">Interbay Golf Center</div>`)[0];
+                popup_3c9b928751a14e3fb84984bfbbb9bc39.setContent(html_a73624e8f925f3e352f4826b5a3099a8);
+            
+        
+
+        marker_f8f8404056c26f07a5a128da1a7cd75e.bindPopup(popup_3c9b928751a14e3fb84984bfbbb9bc39)
+        ;
+
+        
+    
+    
+            var marker_5510f44a65cfae762dbaec0b9c1b2168 = L.marker(
+                [47.3326, -122.066],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_a391ee800fd9bc16c60e3bbf0f7394ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5510f44a65cfae762dbaec0b9c1b2168.setIcon(icon_a391ee800fd9bc16c60e3bbf0f7394ce);
+        
+    
+        var popup_ec12ca556ea189097a41c2c835d3ce31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34a48c2ee15993a5947321658179fe8b = $(`<div id="html_34a48c2ee15993a5947321658179fe8b" style="width: 100.0%; height: 100.0%;">Druid's Glen Golf Club</div>`)[0];
+                popup_ec12ca556ea189097a41c2c835d3ce31.setContent(html_34a48c2ee15993a5947321658179fe8b);
+            
+        
+
+        marker_5510f44a65cfae762dbaec0b9c1b2168.bindPopup(popup_ec12ca556ea189097a41c2c835d3ce31)
+        ;
+
+        
+    
+    
+            var marker_16db9aa0687f32f1d6efcfcb4891a67a = L.marker(
+                [47.504, -122.319],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_364075a6029907f999b3e1909a16bb6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_16db9aa0687f32f1d6efcfcb4891a67a.setIcon(icon_364075a6029907f999b3e1909a16bb6d);
+        
+    
+        var popup_3ce958df3acbbe7d4cd43d745a24c11e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a271135c30b99dfc094b1992c686a18 = $(`<div id="html_1a271135c30b99dfc094b1992c686a18" style="width: 100.0%; height: 100.0%;">Glen Acres Golf & Country Club</div>`)[0];
+                popup_3ce958df3acbbe7d4cd43d745a24c11e.setContent(html_1a271135c30b99dfc094b1992c686a18);
+            
+        
+
+        marker_16db9aa0687f32f1d6efcfcb4891a67a.bindPopup(popup_3ce958df3acbbe7d4cd43d745a24c11e)
+        ;
+
+        
+    
+    
+            var marker_60ab16eceee49a3890406dc79ea82e10 = L.marker(
+                [47.6888, -122.269],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_ca5dbaa35019729c59e9c4e8f4dff960 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_60ab16eceee49a3890406dc79ea82e10.setIcon(icon_ca5dbaa35019729c59e9c4e8f4dff960);
+        
+    
+        var popup_d2e36a86500b5b28a5ef063f05c45e60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a58a39377a80b41d053d0f427ba4b51 = $(`<div id="html_1a58a39377a80b41d053d0f427ba4b51" style="width: 100.0%; height: 100.0%;">Sand Point Country Club</div>`)[0];
+                popup_d2e36a86500b5b28a5ef063f05c45e60.setContent(html_1a58a39377a80b41d053d0f427ba4b51);
+            
+        
+
+        marker_60ab16eceee49a3890406dc79ea82e10.bindPopup(popup_d2e36a86500b5b28a5ef063f05c45e60)
+        ;
+
+        
+    
+    
+            var marker_4168159faf4ad4cdddda5b8b0958ec8f = L.marker(
+                [47.48132, -122.265],
+                {}
+            ).addTo(map_f574570a403d6b655abfca6a56d1d50f);
+        
+    
+            var icon_43fb475637614a8300122cd1d1457a06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4168159faf4ad4cdddda5b8b0958ec8f.setIcon(icon_43fb475637614a8300122cd1d1457a06);
+        
+    
+        var popup_7e185d0a7c97ea097ca76d1d520e5dbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_269b749184d59c9583ab9b3f0616c699 = $(`<div id="html_269b749184d59c9583ab9b3f0616c699" style="width: 100.0%; height: 100.0%;">Foster Golf Links</div>`)[0];
+                popup_7e185d0a7c97ea097ca76d1d520e5dbe.setContent(html_269b749184d59c9583ab9b3f0616c699);
+            
+        
+
+        marker_4168159faf4ad4cdddda5b8b0958ec8f.bindPopup(popup_7e185d0a7c97ea097ca76d1d520e5dbe)
+        ;
+
+        
+    
+</script>
+</html>

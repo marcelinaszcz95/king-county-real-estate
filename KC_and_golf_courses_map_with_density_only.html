@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4df77791b5fad55fccab7dc7b3b80365 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4df77791b5fad55fccab7dc7b3b80365" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4df77791b5fad55fccab7dc7b3b80365 = L.map(
+                "map_4df77791b5fad55fccab7dc7b3b80365",
+                {
+                    center: [47.605225862068956, -122.20237931034481],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_833b135fc2af0241b18b2585669c4f27 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_833b135fc2af0241b18b2585669c4f27.addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+    
+            var marker_f3af338ca63f7c90d60082a3b4e6aa00 = L.marker(
+                [47.4719, -122.157],
+                {}
+            ).addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+    
+            var icon_81094a6425c7e924d9acc8c81838bad1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f3af338ca63f7c90d60082a3b4e6aa00.setIcon(icon_81094a6425c7e924d9acc8c81838bad1);
+        
+    
+        var popup_8075f93cb0a2e7eb59e414b2b9fa9763 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2f288fc04b45d0610ea51113163ec1e = $(`<div id="html_f2f288fc04b45d0610ea51113163ec1e" style="width: 100.0%; height: 100.0%;">Maplewood Golf Course</div>`)[0];
+                popup_8075f93cb0a2e7eb59e414b2b9fa9763.setContent(html_f2f288fc04b45d0610ea51113163ec1e);
+            
+        
+
+        marker_f3af338ca63f7c90d60082a3b4e6aa00.bindPopup(popup_8075f93cb0a2e7eb59e414b2b9fa9763)
+        ;
+
+        
+    
+    
+            var marker_d2f879c7ed85b7e7442d7cd93b5fdaae = L.marker(
+                [47.5356, -122.143],
+                {}
+            ).addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+    
+            var icon_8281ea1274f22a33c150c39d67bcaf57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2f879c7ed85b7e7442d7cd93b5fdaae.setIcon(icon_8281ea1274f22a33c150c39d67bcaf57);
+        
+    
+        var popup_dd9990b4d1385f62c47e41f19966a597 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86420ec59e6c96a43c2973f7e94456d3 = $(`<div id="html_86420ec59e6c96a43c2973f7e94456d3" style="width: 100.0%; height: 100.0%;">The Golf Club at Newcastle</div>`)[0];
+                popup_dd9990b4d1385f62c47e41f19966a597.setContent(html_86420ec59e6c96a43c2973f7e94456d3);
+            
+        
+
+        marker_d2f879c7ed85b7e7442d7cd93b5fdaae.bindPopup(popup_dd9990b4d1385f62c47e41f19966a597)
+        ;
+
+        
+    
+    
+            var marker_c75428b3da130fe75382a97c25fea4de = L.marker(
+                [47.3362, -122.2066],
+                {}
+            ).addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+    
+            var icon_8e7a643bf98976b0a3ba2ea015f6d8cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c75428b3da130fe75382a97c25fea4de.setIcon(icon_8e7a643bf98976b0a3ba2ea015f6d8cb);
+        
+    
+        var popup_7a2fcae1f0e84e582235fffef806f7a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9798cce2c81e88bcd3ab91450665731 = $(`<div id="html_b9798cce2c81e88bcd3ab91450665731" style="width: 100.0%; height: 100.0%;">Auburn Golf Course</div>`)[0];
+                popup_7a2fcae1f0e84e582235fffef806f7a1.setContent(html_b9798cce2c81e88bcd3ab91450665731);
+            
+        
+
+        marker_c75428b3da130fe75382a97c25fea4de.bindPopup(popup_7a2fcae1f0e84e582235fffef806f7a1)
+        ;
+
+        
+    
+    
+            var marker_bf36253d4b91b13ce21b87def292b42f = L.marker(
+                [47.5192, -121.797],
+                {}
+            ).addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+    
+            var icon_8e810e773f1c4c208e6802505c95d908 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bf36253d4b91b13ce21b87def292b42f.setIcon(icon_8e810e773f1c4c208e6802505c95d908);
+        
+    
+        var popup_4cd83422ada365129c7a0aebad4c1fb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41aacfdad10c6f93aa5887731dae9463 = $(`<div id="html_41aacfdad10c6f93aa5887731dae9463" style="width: 100.0%; height: 100.0%;">Mount Si Golf Course</div>`)[0];
+                popup_4cd83422ada365129c7a0aebad4c1fb4.setContent(html_41aacfdad10c6f93aa5887731dae9463);
+            
+        
+
+        marker_bf36253d4b91b13ce21b87def292b42f.bindPopup(popup_4cd83422ada365129c7a0aebad4c1fb4)
+        ;
+
+        
+    
+    
+            var marker_c803e94d3bbd3907d71c74cf928603fe = L.marker(
+                [47.6438, -122.378],
+                {}
+            ).addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+    
+            var icon_d6b0be5fb79504b723c894f152c87b68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c803e94d3bbd3907d71c74cf928603fe.setIcon(icon_d6b0be5fb79504b723c894f152c87b68);
+        
+    
+        var popup_a82bf3c50845fd9a1622ccb15f3193b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf1c1f0652fee35bb6bfa5732a5dafd8 = $(`<div id="html_cf1c1f0652fee35bb6bfa5732a5dafd8" style="width: 100.0%; height: 100.0%;">Interbay Golf Center</div>`)[0];
+                popup_a82bf3c50845fd9a1622ccb15f3193b8.setContent(html_cf1c1f0652fee35bb6bfa5732a5dafd8);
+            
+        
+
+        marker_c803e94d3bbd3907d71c74cf928603fe.bindPopup(popup_a82bf3c50845fd9a1622ccb15f3193b8)
+        ;
+
+        
+    
+    
+            var marker_d91aa3c9e57afd1e78110e77a760ee1a = L.marker(
+                [47.3326, -122.066],
+                {}
+            ).addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+    
+            var icon_986bef65c8c381fba0af3fd2152512b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d91aa3c9e57afd1e78110e77a760ee1a.setIcon(icon_986bef65c8c381fba0af3fd2152512b0);
+        
+    
+        var popup_2c907c38f0f6b3d7bde33234c725c0d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7faa058562163cabc11d4b0800ffd931 = $(`<div id="html_7faa058562163cabc11d4b0800ffd931" style="width: 100.0%; height: 100.0%;">Druid's Glen Golf Club</div>`)[0];
+                popup_2c907c38f0f6b3d7bde33234c725c0d1.setContent(html_7faa058562163cabc11d4b0800ffd931);
+            
+        
+
+        marker_d91aa3c9e57afd1e78110e77a760ee1a.bindPopup(popup_2c907c38f0f6b3d7bde33234c725c0d1)
+        ;
+
+        
+    
+    
+            var marker_8ce724dfe668d8ca810081f56920fbeb = L.marker(
+                [47.504, -122.319],
+                {}
+            ).addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+    
+            var icon_b052e05103c58a481187a93dc45d7ddf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8ce724dfe668d8ca810081f56920fbeb.setIcon(icon_b052e05103c58a481187a93dc45d7ddf);
+        
+    
+        var popup_d07267f883e91bf378487e65e0c782f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6c76b6c831dad7419ec28294fae8af8 = $(`<div id="html_b6c76b6c831dad7419ec28294fae8af8" style="width: 100.0%; height: 100.0%;">Glen Acres Golf & Country Club</div>`)[0];
+                popup_d07267f883e91bf378487e65e0c782f2.setContent(html_b6c76b6c831dad7419ec28294fae8af8);
+            
+        
+
+        marker_8ce724dfe668d8ca810081f56920fbeb.bindPopup(popup_d07267f883e91bf378487e65e0c782f2)
+        ;
+
+        
+    
+    
+            var marker_f85258e5e783649b1566dbdf4c77d2b2 = L.marker(
+                [47.6888, -122.269],
+                {}
+            ).addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+    
+            var icon_f302c4c977fa8499744c6c3d44d0582e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f85258e5e783649b1566dbdf4c77d2b2.setIcon(icon_f302c4c977fa8499744c6c3d44d0582e);
+        
+    
+        var popup_f0b8d49623a75a89e150b0a76b1c6143 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c00e8d0377fbfcf6c5e588bd46632de = $(`<div id="html_4c00e8d0377fbfcf6c5e588bd46632de" style="width: 100.0%; height: 100.0%;">Sand Point Country Club</div>`)[0];
+                popup_f0b8d49623a75a89e150b0a76b1c6143.setContent(html_4c00e8d0377fbfcf6c5e588bd46632de);
+            
+        
+
+        marker_f85258e5e783649b1566dbdf4c77d2b2.bindPopup(popup_f0b8d49623a75a89e150b0a76b1c6143)
+        ;
+
+        
+    
+    
+            var marker_262d7ff1059c65c43ebe3a56210033a4 = L.marker(
+                [47.48132, -122.265],
+                {}
+            ).addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+    
+            var icon_06c1b59515e09966a54a60c5d367d46b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_262d7ff1059c65c43ebe3a56210033a4.setIcon(icon_06c1b59515e09966a54a60c5d367d46b);
+        
+    
+        var popup_b424d1f7f95e638fe6f9fd8446eeaed4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fafdfb95abb3e72026ec946f673d703 = $(`<div id="html_6fafdfb95abb3e72026ec946f673d703" style="width: 100.0%; height: 100.0%;">Foster Golf Links</div>`)[0];
+                popup_b424d1f7f95e638fe6f9fd8446eeaed4.setContent(html_6fafdfb95abb3e72026ec946f673d703);
+            
+        
+
+        marker_262d7ff1059c65c43ebe3a56210033a4.bindPopup(popup_b424d1f7f95e638fe6f9fd8446eeaed4)
+        ;
+
+        
+    
+    
+            var heat_map_e66f3c38ec58e673357b8ceccc90085d = L.heatLayer(
+                [[47.4169, -122.348], [47.6767, -122.211], [47.6232, -122.22], [47.585, -122.222], [47.6042, -122.112], [47.7493, -122.28], [47.5373, -121.865], [47.4485, -122.369], [47.5922, -122.388], [47.5884, -122.086], [47.7288, -122.37], [47.5811, -122.4], [47.7404, -122.284], [47.7591, -122.376], [47.5554, -122.077], [47.7097, -122.013], [47.6515, -122.277], [47.5507, -122.113], [47.5716, -122.204], [47.7205, -122.26], [47.557, -122.21], [47.5888, -122.392], [47.6142, -122.065], [47.6305, -122.24], [47.6052, -122.064], [47.6997, -122.24], [47.5364, -121.856], [47.6934, -122.271], [47.6205, -122.214], [47.7282, -122.372], [47.5511, -122.114], [47.5878, -121.969], [47.6675, -121.986], [47.5552, -122.231], [47.56, -122.161], [47.6251, -122.218], [47.5696, -122.09], [47.405, -122.331], [47.605, -122.112], [47.7295, -122.372], [47.5316, -122.263], [47.6409, -122.241], [47.6303, -122.362], [47.5928, -122.086], [47.7561, -122.271], [47.4418, -122.354], [47.5515, -122.113], [47.5662, -122.108], [47.6646, -122.208], [47.6952, -122.402], [47.4558, -122.371], [47.6083, -122.11], [47.572, -122.102], [47.7296, -122.37], [47.5283, -122.205], [47.5443, -121.87], [47.5451, -122.114], [47.5285, -122.205]],
+                {"blur": 15, "gradient": {"0.0": "#000003", "0.00392156862745098": "#000004", "0.00784313725490196": "#000006", "0.011764705882352941": "#010007", "0.01568627450980392": "#010109", "0.0196078431372549": "#01010b", "0.023529411764705882": "#02020d", "0.027450980392156862": "#02020f", "0.03137254901960784": "#030311", "0.03529411764705882": "#040313", "0.0392156862745098": "#040415", "0.043137254901960784": "#050417", "0.047058823529411764": "#060519", "0.050980392156862744": "#07051b", "0.054901960784313725": "#08061d", "0.058823529411764705": "#09071f", "0.06274509803921569": "#0a0722", "0.06666666666666667": "#0b0824", "0.07058823529411765": "#0c0926", "0.07450980392156863": "#0d0a28", "0.0784313725490196": "#0e0a2a", "0.08235294117647059": "#0f0b2c", "0.08627450980392157": "#100c2f", "0.09019607843137255": "#110c31", "0.09411764705882353": "#120d33", "0.09803921568627451": "#140d35", "0.10196078431372549": "#150e38", "0.10588235294117647": "#160e3a", "0.10980392156862745": "#170f3c", "0.11372549019607843": "#180f3f", "0.11764705882352941": "#1a1041", "0.12156862745098039": "#1b1044", "0.12549019607843137": "#1c1046", "0.12941176470588237": "#1e1049", "0.13333333333333333": "#1f114b", "0.13725490196078433": "#20114d", "0.1411764705882353": "#221150", "0.1450980392156863": "#231152", "0.14901960784313725": "#251155", "0.15294117647058825": "#261157", "0.1568627450980392": "#281159", "0.1607843137254902": "#2a115c", "0.16470588235294117": "#2b115e", "0.16862745098039217": "#2d1060", "0.17254901960784313": "#2f1062", "0.17647058823529413": "#301065", "0.1803921568627451": "#321067", "0.1843137254901961": "#341068", "0.18823529411764706": "#350f6a", "0.19215686274509805": "#370f6c", "0.19607843137254902": "#390f6e", "0.2": "#3b0f6f", "0.20392156862745098": "#3c0f71", "0.20784313725490197": "#3e0f72", "0.21176470588235294": "#400f73", "0.21568627450980393": "#420f74", "0.2196078431372549": "#430f75", "0.2235294117647059": "#450f76", "0.22745098039215686": "#470f77", "0.23137254901960785": "#481078", "0.23529411764705882": "#4a1079", "0.23921568627450981": "#4b1079", "0.24313725490196078": "#4d117a", "0.24705882352941178": "#4f117b", "0.25098039215686274": "#50127b", "0.2549019607843137": "#52127c", "0.25882352941176473": "#53137c", "0.2627450980392157": "#55137d", "0.26666666666666666": "#57147d", "0.27058823529411763": "#58157e", "0.27450980392156865": "#5a157e", "0.2784313725490196": "#5b167e", "0.2823529411764706": "#5d177e", "0.28627450980392155": "#5e177f", "0.2901960784313726": "#60187f", "0.29411764705882354": "#61187f", "0.2980392156862745": "#63197f", "0.30196078431372547": "#651a80", "0.3058823529411765": "#661a80", "0.30980392156862746": "#681b80", "0.3137254901960784": "#691c80", "0.3176470588235294": "#6b1c80", "0.3215686274509804": "#6c1d80", "0.3254901960784314": "#6e1e81", "0.32941176470588235": "#6f1e81", "0.3333333333333333": "#711f81", "0.33725490196078434": "#731f81", "0.3411764705882353": "#742081", "0.34509803921568627": "#762181", "0.34901960784313724": "#772181", "0.35294117647058826": "#792281", "0.3568627450980392": "#7a2281", "0.3607843137254902": "#7c2381", "0.36470588235294116": "#7e2481", "0.3686274509803922": "#7f2481", "0.37254901960784315": "#812581", "0.3764705882352941": "#822581", "0.3803921568627451": "#842681", "0.3843137254901961": "#852681", "0.38823529411764707": "#872781", "0.39215686274509803": "#892881", "0.396078431372549": "#8a2881", "0.4": "#8c2980", "0.403921568627451": "#8d2980", "0.40784313725490196": "#8f2a80", "0.4117647058823529": "#912a80", "0.41568627450980394": "#922b80", "0.4196078431372549": "#942b80", "0.4235294117647059": "#952c80", "0.42745098039215684": "#972c7f", "0.43137254901960786": "#992d7f", "0.43529411764705883": "#9a2d7f", "0.4392156862745098": "#9c2e7f", "0.44313725490196076": "#9e2e7e", "0.4470588235294118": "#9f2f7e", "0.45098039215686275": "#a12f7e", "0.4549019607843137": "#a3307e", "0.4588235294117647": "#a4307d", "0.4627450980392157": "#a6317d", "0.4666666666666667": "#a7317d", "0.47058823529411764": "#a9327c", "0.4745098039215686": "#ab337c", "0.47843137254901963": "#ac337b", "0.4823529411764706": "#ae347b", "0.48627450980392156": "#b0347b", "0.49019607843137253": "#b1357a", "0.49411764705882355": "#b3357a", "0.4980392156862745": "#b53679", "0.5019607843137255": "#b63679", "0.5058823529411764": "#b83778", "0.5098039215686274": "#b93778", "0.5137254901960784": "#bb3877", "0.5176470588235295": "#bd3977", "0.5215686274509804": "#be3976", "0.5254901960784314": "#c03a75", "0.5294117647058824": "#c23a75", "0.5333333333333333": "#c33b74", "0.5372549019607843": "#c53c74", "0.5411764705882353": "#c63c73", "0.5450980392156862": "#c83d72", "0.5490196078431373": "#ca3e72", "0.5529411764705883": "#cb3e71", "0.5568627450980392": "#cd3f70", "0.5607843137254902": "#ce4070", "0.5647058823529412": "#d0416f", "0.5686274509803921": "#d1426e", "0.5725490196078431": "#d3426d", "0.5764705882352941": "#d4436d", "0.5803921568627451": "#d6446c", "0.5843137254901961": "#d7456b", "0.5882352941176471": "#d9466a", "0.592156862745098": "#da4769", "0.596078431372549": "#dc4869", "0.6": "#dd4968", "0.6039215686274509": "#de4a67", "0.6078431372549019": "#e04b66", "0.611764705882353": "#e14c66", "0.615686274509804": "#e24d65", "0.6196078431372549": "#e44e64", "0.6235294117647059": "#e55063", "0.6274509803921569": "#e65162", "0.6313725490196078": "#e75262", "0.6352941176470588": "#e85461", "0.6392156862745098": "#ea5560", "0.6431372549019608": "#eb5660", "0.6470588235294118": "#ec585f", "0.6509803921568628": "#ed595f", "0.6549019607843137": "#ee5b5e", "0.6588235294117647": "#ee5d5d", "0.6627450980392157": "#ef5e5d", "0.6666666666666666": "#f0605d", "0.6705882352941176": "#f1615c", "0.6745098039215687": "#f2635c", "0.6784313725490196": "#f3655c", "0.6823529411764706": "#f3675b", "0.6862745098039216": "#f4685b", "0.6901960784313725": "#f56a5b", "0.6941176470588235": "#f56c5b", "0.6980392156862745": "#f66e5b", "0.7019607843137254": "#f6705b", "0.7058823529411765": "#f7715b", "0.7098039215686275": "#f7735c", "0.7137254901960784": "#f8755c", "0.7176470588235294": "#f8775c", "0.7215686274509804": "#f9795c", "0.7254901960784313": "#f97b5d", "0.7294117647058823": "#f97d5d", "0.7333333333333333": "#fa7f5e", "0.7372549019607844": "#fa805e", "0.7411764705882353": "#fa825f", "0.7450980392156863": "#fb8460", "0.7490196078431373": "#fb8660", "0.7529411764705882": "#fb8861", "0.7568627450980392": "#fb8a62", "0.7607843137254902": "#fc8c63", "0.7647058823529411": "#fc8e63", "0.7686274509803922": "#fc9064", "0.7725490196078432": "#fc9265", "0.7764705882352941": "#fc9366", "0.7803921568627451": "#fd9567", "0.7843137254901961": "#fd9768", "0.788235294117647": "#fd9969", "0.792156862745098": "#fd9b6a", "0.796078431372549": "#fd9d6b", "0.8": "#fd9f6c", "0.803921568627451": "#fda16e", "0.807843137254902": "#fda26f", "0.8117647058823529": "#fda470", "0.8156862745098039": "#fea671", "0.8196078431372549": "#fea873", "0.8235294117647058": "#feaa74", "0.8274509803921568": "#feac75", "0.8313725490196079": "#feae76", "0.8352941176470589": "#feaf78", "0.8392156862745098": "#feb179", "0.8431372549019608": "#feb37b", "0.8470588235294118": "#feb57c", "0.8509803921568627": "#feb77d", "0.8549019607843137": "#feb97f", "0.8588235294117647": "#febb80", "0.8627450980392157": "#febc82", "0.8666666666666667": "#febe83", "0.8705882352941177": "#fec085", "0.8745098039215686": "#fec286", "0.8784313725490196": "#fec488", "0.8823529411764706": "#fec689", "0.8862745098039215": "#fec78b", "0.8901960784313725": "#fec98d", "0.8941176470588236": "#fecb8e", "0.8980392156862745": "#fdcd90", "0.9019607843137255": "#fdcf92", "0.9058823529411765": "#fdd193", "0.9098039215686274": "#fdd295", "0.9137254901960784": "#fdd497", "0.9176470588235294": "#fdd698", "0.9215686274509803": "#fdd89a", "0.9254901960784314": "#fdda9c", "0.9294117647058824": "#fddc9d", "0.9333333333333333": "#fddd9f", "0.9372549019607843": "#fddfa1", "0.9411764705882353": "#fde1a3", "0.9450980392156862": "#fce3a5", "0.9490196078431372": "#fce5a6", "0.9529411764705882": "#fce6a8", "0.9568627450980393": "#fce8aa", "0.9607843137254902": "#fceaac", "0.9647058823529412": "#fcecae", "0.9686274509803922": "#fceeb0", "0.9725490196078431": "#fcf0b1", "0.9764705882352941": "#fcf1b3", "0.9803921568627451": "#fcf3b5", "0.984313725490196": "#fcf5b7", "0.9882352941176471": "#fbf7b9", "0.9921568627450981": "#fbf9bb", "0.996078431372549": "#fbfabd", "1.0": "#fbfcbf"}, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            );
+        
+    
+            heat_map_e66f3c38ec58e673357b8ceccc90085d.addTo(map_4df77791b5fad55fccab7dc7b3b80365);
+        
+</script>
+</html>
