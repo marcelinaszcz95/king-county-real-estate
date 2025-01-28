@@ -10,6 +10,18 @@ __pycache__/
 new_env/
 new_env_2/
 
+KG_EDA_Visualization.ipynb
+Parcel_Size_vs_Year_All.jpg
+Parcel_Size_vs_Year_Historical_All.jpg
+Parcel_Size_vs_Year_Historical_Reduced.jpg
+Parcel_Size_vs_Year_Reduced.jpg
+KC_and_golf_courses_map_with_density_only.html
+Parcel Size vs. Construction Year for Historical Properties (Over 15,000 sqft).jpg
+Price Distribution of Modern Houses by Year Built.jpg
+kc_map\houses_and_golf_courses_map.html
+
+
+
 # Distribution / packaging
 .Python
 build/
