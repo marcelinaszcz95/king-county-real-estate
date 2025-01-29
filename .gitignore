@@ -6,6 +6,21 @@ __pycache__/
 # C extensions
 *.so
 
+.local
+
+assignment.md
+king_county_price_prediction.ipynb
+requirements_.txt
+extract_data_from_DBiever_houses.ipynb
+
+.src
+.venv_/
+new_env/
+new_env_2/
+
+
+
+
 # Distribution / packaging
 .Python
 build/
