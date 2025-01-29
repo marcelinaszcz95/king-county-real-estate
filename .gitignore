@@ -6,19 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
+.1_Fetching_the_data_eda.ipynb
+
+assignment.md
+king_county_price_prediction.ipynb
+requirements_.txt
+extract_data_from_DBiever_houses.ipynb
+
+.src
 .venv_/
 new_env/
 new_env_2/
 
-KG_EDA_Visualization.ipynb
-Parcel_Size_vs_Year_All.jpg
-Parcel_Size_vs_Year_Historical_All.jpg
-Parcel_Size_vs_Year_Historical_Reduced.jpg
-Parcel_Size_vs_Year_Reduced.jpg
-KC_and_golf_courses_map_with_density_only.html
-Parcel Size vs. Construction Year for Historical Properties (Over 15,000 sqft).jpg
-Price Distribution of Modern Houses by Year Built.jpg
-kc_map\houses_and_golf_courses_map.html
 
 
 
