@@ -6,7 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
-.1_Fetching_the_data_eda.ipynb
+.local
 
 assignment.md
 king_county_price_prediction.ipynb

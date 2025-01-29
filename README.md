@@ -3,12 +3,13 @@
 ### *By: Marcelina Szczygiel*  
 
 ## **Introduction**  
-This project is an in-depth exploration of the **King County Housing Dataset**, focusing on **predicting house prices** using various machine learning models. It includes:  
+This project is an in-depth exploration of the **King County Housing Dataset**, it includes:  
 - **Exploratory Data Analysis (EDA)** and data cleaning  
 - **Feature engineering & selection**  
 - **Data visualization**  
-- **Model selection and evaluation**  
-- **Stacking models for final price prediction**  
+- **Data Preprocessing Pipeline**  (in progress)
+- **Model selection and evaluation** (in progress)
+- **Stacking models for final price prediction** (in progress)
 
 The project is structured into multiple notebooks, each covering different aspects of the analysis and modeling.  
 
